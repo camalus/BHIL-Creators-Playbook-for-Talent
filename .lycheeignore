@@ -1,0 +1,10 @@
+# Illustrative s.mj.run URLs are placeholders, not real Omni-Reference assets
+^https://s\.mj\.run/
+
+# Internal BHIL access-controlled URLs not reachable from CI
+^https://(.+)\.bhil\.internal/
+
+# Placeholder Asana / Notion / Drive links used in workflow examples
+^https://app\.asana\.com/0/PLACEHOLDER/
+^https://www\.notion\.so/PLACEHOLDER
+^https://docs\.google\.com/PLACEHOLDER

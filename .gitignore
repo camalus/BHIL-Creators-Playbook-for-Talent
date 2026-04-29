@@ -1,0 +1,54 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Image generation working files (must not be committed; live in brand vault)
+*.psd
+*.ai
+*.sketch
+*.fig
+work/
+scratch/
+renders/
+outputs/
+
+# Source images that are not committed examples
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tiff
+!examples/case-studies/**/*.png
+!examples/case-studies/**/*.jpg
+!docs/assets/*.png
+!docs/assets/*.svg
+
+# API keys and credentials (must never be committed)
+.env
+.env.local
+.env.*.local
+secrets/
+credentials/
+*.pem
+*.key
+
+# Node / build artifacts (in case of future tooling)
+node_modules/
+dist/
+build/
+*.log
+
+# Python (in case of future automation)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archive artifacts
+*.tar.gz
+*.zip
+!releases/*.tar.gz
